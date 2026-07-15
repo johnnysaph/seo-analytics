@@ -1,0 +1,5 @@
+.venv/
+.env
+logs/
+/temp
+test.py

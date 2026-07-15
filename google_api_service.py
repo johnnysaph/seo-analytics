@@ -1,8 +1,11 @@
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
+from dotenv import load_dotenv
 import logging
 import sys
 import os
+
+load_dotenv()
 
 # path to json creds
 GOOGLE_KEY_PATH = os.getenv("GOOGLE_API_KEY_FILE_PATH")

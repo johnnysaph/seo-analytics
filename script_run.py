@@ -1,8 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from dotenv import load_dotenv
 import logging
 import sys
 import os
+
+load_dotenv()
 
 # LOCAL PATHS
 LOG_PATH = os.getenv("LOG_PATH", "/tmp/logs")
